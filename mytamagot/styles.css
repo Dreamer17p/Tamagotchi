@@ -1,0 +1,62 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .marios {
+    width: 200px;
+    height: 250px;
+  }
+
+  .title {
+    margin-top: 30px;
+  }
+
+   h3 {
+    margin-top: 5px;
+  }
+  
+  .tamagotchi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid coral;
+  }
+  
+  .name {
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+.Start {
+  background-color: blueviolet;
+  margin-top: 10px;
+  margin-left: 80px;
+}
